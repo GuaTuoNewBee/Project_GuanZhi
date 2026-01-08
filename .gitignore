@@ -1,0 +1,37 @@
+# gitignore
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+# 重点：不要提交本地数据库，数据应该通过脚本爬取
+*.db
+*.db-journal
+# 排除日志
+*.log
+*.cache/
+*.db*
+tests/
+test_*
+*_test*
+# --- 缓存与临时文件 ---
+cache/
+posters/
+*.webp
+*.jpg
+*.png
+
+# --- 打包产物 ---
+# 发布版本时，PyInstaller 会生成这些文件夹，不应进入 Git
+dist/
+build/
+*.spec
+
+# --- 环境与配置 ---
+# 包含敏感信息（如 API Key）或本地路径的配置文件
+config_local.py
+.env
+
+# --- 操作系统临时文件 ---
+.DS_Store
+Thumbs.db

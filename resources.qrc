@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>views/GZMainWindow.qml</file>
+        <file>views/MoviesWindow.qml</file>
+        <file>views/components/AboutDialog.qml</file>
+        <file>views/components/BrandSearchInput.qml</file>
+        <file>views/components/MovieDetail.qml</file>
+        <file>views/components/NavBar.qml</file>
+        <file>views/components/Pager.qml</file>
+        <file>views/components/QueryArea.qml</file>
+        <file>views/components/VideoPlayer.qml</file>
+        <file>assets/icons/logo.ico</file>
+        <file>assets/icons/logo.png</file>
+        <file>assets/images/docs/imgs/main_page.png</file>
+        <file>assets/images/docs/imgs/video_details.png</file>
+        <file>assets/images/docs/imgs/video_player.png</file>
+    </qresource>
+</RCC>
