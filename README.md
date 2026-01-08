@@ -3,11 +3,13 @@
 **观止** 是一款基于 **PySide6 (Python)** 和 **QML** 构建的高性能桌面影视资源聚合工具。它通过独创的“呼吸式”后台同步引擎，实现全自动资源采集与解析，为用户提供丝滑、纯净的海报墙观影预检体验。
 ---
 > 主界面
-![观止播放器预览](ui/resources/images/docs/imgs/main_page.png)
+![观止播放器预览](assets/images/docs/imgs/MainWindow.png)
 > 详情页
-![观止播放器预览](ui/resources/images/docs/imgs/video_details.png)
+![观止播放器预览](assets/images/docs/imgs/MovieDetail.png)
 > 内置播放器
-![观止播放器预览](ui/resources/images/docs/imgs/video_player.png)
+![观止播放器预览](assets/images/docs/imgs/VideoPlayer.png)
+> 说明
+![观止播放器预览](assets/images/docs/imgs/AboutMe.png)
 ## ✨ 项目亮点
 
 - **呼吸式同步**：后台线程定时轮询，增量采集，既保证数据实时更新，又完全不阻塞 UI 交互。
